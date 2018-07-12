@@ -1,0 +1,51 @@
+<div class="visual-content">
+    <div class="visual-row reverse">
+        <div class="highlight">
+            <h3 align=center>Our Unique Culinary Creations</h3>
+        </div>
+        <div>
+            <h2>Fichipizza</h2>
+            <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado, honey and arugula.</p>
+            <p><a routerLink="/info">More &raquo;</a></p>
+        </div>
+    </div>
+    <div class="visual-row">
+        <div class="highlight">
+            <h3 align=center>This Month's Promotions</h3>
+        </div>
+        <div>
+            <h2>Weekend Grand Buffet</h2>
+            <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <p><a routerLink="/info">More &raquo;</a></p>
+        </div>
+    </div>
+    <div class="visual-row reverse">
+        <div class="highlight">
+            <h3 align=center>Meet our Culinary Specialists</h3>
+        </div>
+        <div>
+            <h2>Tommy McHugh</h2>
+            <h4>Executive Chef</h4>
+            <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experiences. </p>
+            <p><a routerLink="/info">More &raquo;</a></p>
+        </div>
+    </div>
+    <div class="visual-row">
+          <div class="highlight">
+            <h2 align=center>Our Chef's Choice</h2>
+        </div>
+        <div class="menu">
+            <div *ngFor="let group of menu" >
+              <h1>{{group.name}} </h1>
+              <ul class="list-group" style="text-align: left;">
+                  <li class="list-group-item" *ngFor="let item of group.items">
+                    <span class="badge">{{item.price}}</span>
+                    <span style="padding-right:200px;">{{item.name}}</span>
+                  </li>
+                </ul>
+            </div>
+            <p><a routerLink="/info">Full menu &raquo;</a></p>
+        </div>
+    </div>
+</div>
+

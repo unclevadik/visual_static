@@ -1,0 +1,10 @@
+.visual-container {
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.visual-content {
+    width:760px;
+}

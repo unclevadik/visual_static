@@ -1,0 +1,50 @@
+.visual-content .visual-row{
+    border-top: 1px solid #C9C9C9;
+}
+
+.visual-row {
+    display:flex; 
+    padding-bottom:10px; 
+    padding-top: 20px;
+}
+
+.visual-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.visual-row.bottom {
+    padding-bottom:40px; 
+}
+
+
+.visual-row h2 {
+    font-size: 1.35em;
+    font-weight:bold;
+}
+
+.visual-row h3 {
+    font-size: 1.2em;
+    font-weight:bold;
+    padding-top:30px;
+}
+
+.visual-row h4 {
+    font-size: 0.85em;
+    font-weight:bold;
+}
+
+.visual-row p {
+    font-size: 0.7em;
+}
+
+.highlight {
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.menu {
+    width:560px;
+    text-align: center;
+    padding-left:40px;
+  }

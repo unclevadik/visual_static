@@ -1,0 +1,35 @@
+.footer {
+    background-color: #AFAFAF;
+    padding: 10px 80px 10px 80px;
+    font-size: 0.65em;
+}
+
+h5{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+.links{
+    width:120px;
+}
+
+address {
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.social {
+    padding-top: 30px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

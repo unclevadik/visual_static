@@ -1,0 +1,18 @@
+.visual-container {
+    background-color: #7884CD;
+    border-top: 1px solid #6D78B7;
+    color: #FFFFFF;
+    font-family:Helvetica, Arial;
+    padding:2.8em 0 3.2em 0;
+}
+
+.visual-content h1 {
+    font-size: 3em;
+    font-weight:bold;
+    margin-bottom:70px;
+}
+
+.visual-content p {
+    font-size: 1em;
+    max-width: 500px;
+}

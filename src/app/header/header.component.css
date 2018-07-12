@@ -1,0 +1,32 @@
+.visual-menu {
+    background-color: #2F3BA1;
+    border-bottom: 1px solid #1E2458;
+    font-size: 0.68em;
+    font-family:Helvetica;
+    min-height:33px;
+}
+.visual-menu .navbar-nav .active a {
+    background-color: #171D7C;
+    color: #FFFFFF;
+}
+
+.visual-menu.navbar {
+    margin-bottom:0px;
+    border-radius: 0;
+}
+.navbar-brand {
+    padding-left:0px;
+}
+
+.visual-menu .navbar-nav li a {
+    padding:6px 10px 6px 10px;
+    color:#9D9D9D;
+    font-weight:bold;
+}
+
+.visual-menu .navbar-brand {
+    height:33px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
