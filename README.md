@@ -1,4 +1,4 @@
-# Assignment (Responsive desing): 
+# Assignment (Static desing): 
 Angular 2+ project to desing homepage following desing in visual.png
 
 ## Development server
